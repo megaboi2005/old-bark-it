@@ -166,7 +166,7 @@ async def api(request):
 
 
 loop = asyncio.get_event_loop()
-loop.create_task(run_bot("NzM1NTYyODY2NDI5NTI2MDg4.XxiETQ.85DAgR8YmBspSVoWPrY865Aul00"))
+loop.create_task(run_bot("TOKEN"))
 app = web.Application()
 app.add_routes([web.get('/', home),
                 web.get('/index', home),
